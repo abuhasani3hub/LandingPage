@@ -1,0 +1,63 @@
+.main-carousel {
+  background-color: inherit;
+  margin: 0px;
+  height: 600px;
+
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 80px;
+}
+.btn-div {
+  margin-top: 15px;
+  margin-left: auto;
+}
+.arrow-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -245px;
+}
+
+.sub-title-text {
+  color: #57be09;
+  font-size: 30px;
+  text-align: left;
+  margin: 0px;
+}
+.main-title-text {
+  color: #1b2346;
+  font-family: Airbnb Cereal App Bold;
+  font-size: 41px;
+  margin: 0px;
+  white-space: nowrap;
+}
+.mid-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  align-items:flex-start
+}
+.img-div-style{
+    display: inline-flex;
+    margin: 5px;
+}
+.img-section-style{
+    display: inline-flex;
+}
+.text-section-style {
+}
+.seha-city-fig {
+  margin-left: -15px;
+}
+.padding-top-imgs{
+    padding-top:59px
+}
+.text-div {
+  margin-top: 100px;
+}
+.img-style{
+    height: fit-content;
+}

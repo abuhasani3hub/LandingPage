@@ -1,0 +1,51 @@
+body {
+  width: 1536px;
+  max-width: 1536px;
+  background-color: #f8f8f8;
+  font-family: Airbnb Cereal App Book;
+  font-size: 14px;
+    margin: auto;
+}
+.container {
+  display: flex;
+  margin-left:151px;
+  margin-right: 151px;
+}
+.icon-title {
+  color: #1b2346;
+  font-size: 16px;
+  font-family: Airbnb Cereal App Medium;
+}
+.img-text {
+  font-family: Airbnb Cereal App;
+  color: #ffffff;
+  font-size: 26px;
+  box-shadow: 0px 0px 3px #000000;
+}
+.primary-btn {
+  background-color: #1b2346;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  min-width: 100px;
+  font-size: 14;
+  font-family: Airbnb Cereal App Book;
+}
+.text-button {
+}
+@font-face {
+  font-family: Airbnb Cereal App Medium;
+  src: url(./fonts/AirbnbCereal_W_Md.otf);
+}
+@font-face {
+  font-family: Airbnb Cereal App Bold;
+  src: url(./fonts/AirbnbCereal_W_Bd.otf);
+}
+@font-face {
+  font-family: Airbnb Cereal App Book;
+  src: url(./fonts/AirbnbCereal_W_Bk.otf);
+}
+@font-face {
+  font-family: Airbnb Cereal App Book;
+  src: url(./fonts/AirbnbCereal_W_Bk.otf);
+}
