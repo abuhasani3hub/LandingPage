@@ -4,11 +4,12 @@ body {
   background-color: #f8f8f8;
   font-family: Airbnb Cereal App Book;
   font-size: 14px;
-    margin: auto;
+  margin: auto;
+  color:#1b2346;
 }
 .container {
   display: flex;
-  margin-left:151px;
+  margin-left: 151px;
   margin-right: 151px;
 }
 .icon-title {
@@ -25,11 +26,19 @@ body {
 .primary-btn {
   background-color: #1b2346;
   border-radius: 10px;
+  border: 1px solid #1b2346;
   color: white;
   height: 40px;
   min-width: 100px;
   font-size: 14;
   font-family: Airbnb Cereal App Book;
+  
+}
+.primary-btn:hover {
+  background-color: white;
+  color:#1b2346 ;
+  cursor: pointer;
+  
 }
 .text-button {
 }

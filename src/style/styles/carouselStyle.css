@@ -2,7 +2,6 @@
   background-color: inherit;
   margin: 0px;
   height: 600px;
-
 }
 .header {
   display: flex;
@@ -38,26 +37,38 @@
   display: flex;
   justify-content: space-between;
   padding: 0 70px;
-  align-items:flex-start
+  align-items: flex-start;
 }
-.img-div-style{
-    display: inline-flex;
-    margin: 5px;
+.img-div-style {
+  display: inline-flex;
+  margin: 5px;
 }
-.img-section-style{
-    display: inline-flex;
+.img-section-style {
+  display: inline-flex;
 }
 .text-section-style {
 }
 .seha-city-fig {
   margin-left: -15px;
 }
-.padding-top-imgs{
-    padding-top:59px
+.padding-top-imgs {
+  padding-top: 59px;
 }
 .text-div {
   margin-top: 100px;
 }
-.img-style{
-    height: fit-content;
+.img-style {
+  height: fit-content;
+}
+.see-doctor-test {
+  color: #68aa31;
+  font-size: 30px;
+  font-family: Airbnb Cereal App Medium;
+  margin:0px ;
+}
+.radio-button{
+  margin-right: 60px;
+} 
+.input-group{
+  margin-top: 10px;
 }

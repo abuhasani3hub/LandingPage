@@ -1,0 +1,56 @@
+.system-features{
+  height: 271px;
+  background-color: white;
+  width: 100%;
+  padding-top: 42px;
+}
+.features{
+  height: 220px;
+  width: 220px;
+  justify-content: center;
+}
+.grid-container {
+  display: inline-flex;
+  justify-content: center;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+.order-btn{
+  background-color: white;
+  color:#4CA7E1 ;
+  border: 1px solid #4CA7E1 ;
+}
+.order-btn:hover{
+  background-color:#4CA7E1 ;
+  color :white;
+  border: 1px solid #4CA7E1 ;
+}
+.health-btn{
+  background-color: white;
+  color:#E67E22 ;
+  border: 1px solid #E67E22 ;
+}
+.health-btn:hover{
+  background-color:#E67E22 ;
+  color:white
+}
+.insurance-btn{
+  background-color: white;
+  color:#8448A7;
+  border: 1px solid #8448A7;
+}
+.insurance-btn:hover{
+  background-color: #8448A7;
+  color:white;
+}
+.interests-btn{
+  color: #5FA02E;
+  background-color: white;
+  border: 1px solid #5FA02E ;
+}
+.interests-btn:hover{
+  color:white;
+  background-color:#5FA02E;
+}
