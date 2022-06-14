@@ -1,0 +1,21 @@
+.approach {
+  background-color: inherit;
+  text-align: "center";
+  padding-left: 73px;
+
+}
+.approach__title {
+  text-align: center;
+}
+.approach__title > p {
+  font-size: 38px;
+  font-family: Airbnb Cereal App Bold;
+}
+.approach__imgs{
+    display: flex;
+    justify-content: center;
+}
+.approach__imgs--image {
+padding-left: 8px;
+padding-right: 8px;
+}
