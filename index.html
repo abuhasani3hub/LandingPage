@@ -18,10 +18,9 @@
 </head>
 
 <body>
-    <main>
-        <header class="header">
-            <figure class="seha-city-fig">
-                <!-- <img src="your-image.png" alt="seha city logo" /> -->
+    <nav>
+        <header class="header">  <!--block-->
+            <figure class="header__seha-city-fig"> <!--element-->
                 <svg xmlns="http://www.w3.org/2000/svg" width="203.5" height="36.78" viewBox="0 0 203.5 36.78">
                     <g id="Group_6365" data-name="Group 6365" transform="translate(0 -1.471)">
                         <g id="Group_5834" data-name="Group 5834" transform="translate(0 1.471)">
@@ -63,15 +62,15 @@
                     </g>
                 </svg>
             </figure>
-            <div class="btn-div">
+            <div class="header__btn-div"> <!--element-->
                 <button class="primary-btn"> sing in </button>
             </div>
         </header>
-    </main>
-    <main class="main-carousel">
-        <section class="mid-container">
-            <section class="text-section-style">
-                <div class="text-div">
+    </nav>
+    <main class="main-carousel"> <!--Block-->
+        <section class="main-carousel__mid-container">  <!--element-->
+            <section>
+                <div class="main-carousel__mid-container--text-div"> <!--modifier-->
                     <p class="sub-title-text"> the all-in-one </p>
                 </div>
                 <div>
@@ -82,47 +81,47 @@
                 </div>
             </section>
 
-            <section class="img-section-style">
-                <div class="img-div-style padding-top-imgs">
+            <section class="img-section-style"> <!--Block-->
+                <div class="img-section-style__img-div-style img-section-style--padding-top-imgs">
                     <img class="img-style"
                         src="./src/assets/images/carouselImages/smiling-little-boy-at-medical-checkup-2022-02-02-04-49-28-utc.png">
                 </div>
 
-                <div class="img-div-style">
+                <div class="img-section-style__img-div-style ">
                     <img class="img-style"
                         src="./src/assets/images/carouselImages/happy-family-concept-top-view-of-happy-family-of-2022-01-29-00-01-45-utc.png">
                 </div>
 
-                <div class="img-div-style padding-top-imgs">
+                <div class="img-section-style__img-div-style img-section-style--padding-top-imgs">
                     <img class="img-style"
                         src="./src/assets/images/carouselImages/foods-for-improving-mental-health-2021-08-31-16-01-45-utc.png">
 
                 </div>
-                <div class="img-div-style">
+                <div class="img-section-style__img-div-style ">
                     <img class="img-style"
                         src="./src/assets/images/carouselImages/happy-family-concept-top-view-of-happy-family-of-2022-01-29-00-01-45-utc.png">
                 </div>
-                <div class="img-div-style padding-top-imgs">
+                <div class="img-section-style__img-div-style img-section-style--padding-top-imgs">
                     <img class="img-style"
                         src="./src/assets/images/carouselImages/businessman-talking-on-video-call-with-doctor-in-w-2021-08-29-19-36-59-utc.png">
                 </div>
             </section>
         </section>
-        <section class="mid-container">
-            <p class="see-doctor">see a doctor? </p>
+        <section class="mid-container"> <!--Block-->
+            <p class="mid-container__see-doctor">see a doctor? </p> <!--element-->
         </section>
-        <section class="mid-container">
-            <div class="input-group">
-                <input type="radio" id="all"> <label for="all" class="radio-button"> Show me all options</label>
+        <section class="mid-container"> <!--Block-->
+            <div class="mid-container__input-group">
+                <input type="radio" id="all"> <label for="all" class="mid-container__input-group--radio-button"> Show me all options</label> <!--modifier-->
                 </input>
-                <input type="radio" id="subscription"> <label for="subscription" class="radio-button"> Subscription
+                <input type="radio" id="subscription"> <label for="subscription"class="mid-container__input-group--radio-button"> Subscription
                     program (a doctor within minutes)</label> </input>
-                <input type="radio" id="book"> <label for="book" class="radio-button"> Book an appointment </label>
+                <input type="radio" id="book"> <label for="book" class="mid-container__input-group--radio-button">Book an appointment </label> <!--modifier-->
                 </input>
             </div>
         </section>
 
-        <div class="arrow-div">
+        <div class="arrow-div"> <!--Block-->
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.542"
                 height="86.754" viewBox="0 0 59.542 86.754">
                 <defs>
@@ -163,7 +162,7 @@
         </div>
 
     </main>
-    <main class=" system-features grid-container">
+    <main class="system-features grid-container">
         <section class="features grid-item">
             <svg id="Group_6545" data-name="Group 6545" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="46.813" height="50.405" viewBox="0 0 46.813 50.405">

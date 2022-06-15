@@ -1,7 +1,7 @@
 .main-carousel {
   background-color: inherit;
   margin: 0px;
-  height: 600px;
+  height: 500px;
 }
 .header {
   display: flex;
@@ -9,7 +9,7 @@
   justify-content: space-around;
   padding: 0 80px;
 }
-.btn-div {
+.header__btn-div {
   margin-top: 15px;
   margin-left: auto;
 }
@@ -17,7 +17,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: -245px;
+  margin-top: -310px ; 
 }
 
 .sub-title-text {
@@ -33,42 +33,40 @@
   margin: 0px;
   white-space: nowrap;
 }
-.mid-container {
+.main-carousel__mid-container{
   display: flex;
   justify-content: space-between;
   padding: 0 70px;
   align-items: flex-start;
 }
-.img-div-style {
+.img-section-style__img-div-style {
   display: inline-flex;
   margin: 5px;
 }
 .img-section-style {
   display: inline-flex;
 }
-.text-section-style {
-}
-.seha-city-fig {
+.header__seha-city-fig{
   margin-left: -15px;
 }
-.padding-top-imgs {
+.img-section-style--padding-top-imgs {
   padding-top: 59px;
 }
-.text-div {
+.main-carousel__mid-container--text-div{
   margin-top: 100px;
 }
 .img-style {
   height: fit-content;
 }
-.see-doctor {
+.mid-container__see-doctor {
   color: #68aa31;
   font-size: 30px;
   font-family: Airbnb Cereal App Medium;
   margin:0px ;
 }
-.radio-button{
+.mid-container__input-group--radio-button{
   margin-right: 60px;
 } 
-.input-group{
+.mid-container__input-group{
   margin-top: 10px;
 }
