@@ -18,4 +18,30 @@
 .approach__imgs--image {
 padding-left: 8px;
 padding-right: 8px;
+padding-bottom: 40px;
+}
+.text{
+  font-size: 26px;
+  color: white;
+  font-family: "Airbnb Cereal App Medium";
+  position: absolute;
+  margin-left:16px ;
+  width: 271px;
+  margin-top:268px;
+  z-index: 100;
+}
+
+.text-img-container{
+  display: flex;
+  flex-direction: column;
+}
+.background-linear-gradient{
+  background-image:linear-gradient(#00000000, #1E2945);
+  width: 407px;
+  padding: 0px;
+  height: 141px;
+  position: absolute;
+  margin-top: 204px;
+  border-radius: 0px 0px 10px 10px;
+
 }

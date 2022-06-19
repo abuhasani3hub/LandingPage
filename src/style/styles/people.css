@@ -1,0 +1,8 @@
+.people__title {
+  text-align: center;
+}
+.people__title > p {
+  font-size: 32px;
+  font-family: Airbnb Cereal App Bold;
+  text-transform: title-case;
+}
