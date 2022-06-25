@@ -1,8 +1,69 @@
+.people {
+  max-width: 1536px;
+}
 .people__title {
   text-align: center;
 }
-.people__title > p {
+.img__div--text-div {
+  display: flex;
+  justify-content: center;
+}
+
+.title-section {
   font-size: 32px;
   font-family: Airbnb Cereal App Bold;
   text-transform: title-case;
+  width: 500px;
+  display: block;
+  margin-bottom: 20px;
+}
+.img__div {
+  justify-content: center;
+  border-radius: 10px;
+}
+.arrow-div-custom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -250px;
+  position: absolute;
+  z-index: 20;
+}
+.left-arrow {
+  margin-left: 180px; 
+}
+.to-right-linear-gradient {
+  background-image: linear-gradient(to left, #00000000, #1e2945);
+  width: 941px;
+  padding: 0px;
+  height: 400px;
+  position: absolute;
+  margin-top: -404px;
+  border-radius: 10px;
+  margin-left: 141px;
+}
+.text-container {
+  z-index: 20;
+  text-align: left;
+  position: absolute;
+  margin-top: -165px;
+}
+.text-headlines__people {
+  z-index: 20;
+  text-align: left;
+  width: 380px;
+  font-size: 40px;
+  color: white;
+  font-family: Airbnb Cereal App Bold;
+  padding-left: 245px;
+  margin-top: -124px;
+  margin-bottom: 14px;
+  position: absolute;
+}
+.patients{
+  margin-top: -75px;
+}
+.see-more {
+  margin-left: 245px;
+  background-color: white;
 }

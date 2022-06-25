@@ -1,7 +1,7 @@
 body {
   width: 1536px;
   max-width: 1536px;
-  background-color: #f8f8f8;
+  background-color: white;
   font-family: Airbnb Cereal App Book;
   font-size: 14px;
   margin: auto;
@@ -33,6 +33,14 @@ body {
   font-size: 14;
   font-family: Airbnb Cereal App Book;
   
+}
+.btn{
+  border-radius: 10px;
+  height: 40px;
+  min-width: 100px;
+  font-size: 14;
+  font-family: Airbnb Cereal App Book;
+  border: 0;
 }
 .primary-btn:hover {
   background-color: white;
