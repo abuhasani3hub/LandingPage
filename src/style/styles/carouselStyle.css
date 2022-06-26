@@ -67,6 +67,9 @@
 .radio:hover{
 cursor: pointer;
 }
+.mid-container{
+  padding: 0 70px;
+}
 .mid-container__input-group--radio-button{
   margin-right: 60px;
 } 
