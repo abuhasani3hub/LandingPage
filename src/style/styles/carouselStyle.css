@@ -64,6 +64,9 @@
   font-family: Airbnb Cereal App Medium;
   margin:0px ;
 }
+.radio:hover{
+cursor: pointer;
+}
 .mid-container__input-group--radio-button{
   margin-right: 60px;
 } 
